@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidDisappear(_ animated: Bool) {
         .....
-        YuluLocationService.shared.remove(self)
+        LocationService.shared.remove(self)
     }
 }
 
